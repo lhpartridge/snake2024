@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+.header {
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(6, 122, 150);
+    border-bottom: 2px solid navy;
+}
+
+h1 {text-align: center;}
+
+#score {text-align: center;}
+
+.main {
+    margin: 50px auto;
+    width: 96%;
+    /* background-color: rgb(190, 242, 225); */
+}
+
+.game-btn{
+    padding: 3px 18px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: navy;
+    border: 1px solid white;
+    border-radius: 5px;
+    align-self: center;
+    text-align: center;
+}
+
+#snakeBoard {
+    margin-top: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.score {
+    font-size: 48px;
+}
+
+.scores-and-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 96%;
+    /* border: 2px solid red; */
+    text-align: left;
+}
+
+.scores {
+    width: 450px;
+    background-color: #fff;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+}
