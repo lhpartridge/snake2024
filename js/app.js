@@ -72,6 +72,7 @@ class Game {
     init() {
         if (this.hasGameEnded()) {
             this.setPreviousScore()
+            return
         } 
         
         // reset the changeDirection to false
